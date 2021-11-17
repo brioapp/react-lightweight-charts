@@ -4,7 +4,7 @@ import {
 } from "lightweight-charts";
 import React from "react";
 
-declare module "kaktana-react-lightweight-charts" {
+declare module "qognica-react-lightweight-charts" {
     interface Props {
         candlestickSeries?: Array<any>;
         lineSeries?: Array<any>;
