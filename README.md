@@ -2,35 +2,19 @@
 
 <div align="center">
   <p>React.js wrapper for <a href="https://github.com/tradingview/lightweight-charts">Lightweight Charts</a> to build interactive financial charts in react.</p>
-
-  [![lightweight-charts version][lightweight-charts-version-img]][lightweight-charts-link]
-  [![npm version][npm-version-img]][npm-link]
-  [![npm bundle size][bundle-size-img]][bundle-size-link]
-  [![Dependencies count][deps-count-img]][bundle-size-link]
-  [![Downloads][npm-downloads-img]][npm-link]
-
+  <p>Based on <a href="https://github.com/Kaktana/kaktana-react-lightweight-charts">Kaktana react lightweight charts</a></p>
 </div>
 
 <!-- markdownlint-enable no-inline-html -->
 
 ## Download and Installation
 
-##### Installing via npm
-
-```bash
-npm install --save kaktana-react-lightweight-charts
-```
-
-##### Installing via yarn
-
-```bash
-yarn add kaktana-react-lightweight-charts
-```
+- TODO add install guide
 
 ## Usage
 
 ```js
-import Chart from 'kaktana-react-lightweight-charts'
+import Chart from 'qognica-react-lightweight-charts'
 ```
 
 To create a basic candlestick chart, write as follows:
@@ -123,16 +107,3 @@ class App extends Component {
 ## License
 
 kaktana-react-lightweight-charts is released under MIT license. You are free to use, modify and distribute this software, as long as the copyright header is left intact.
-
-
-[lightweight-charts-version-img]: https://img.shields.io/badge/lightweight--charts-v3.3.0-brightgreen
-[lightweight-charts-link]: https://github.com/tradingview/lightweight-charts/tree/v3.3.0
-
-[npm-version-img]: https://badge.fury.io/js/kaktana-react-lightweight-charts.svg
-[npm-downloads-img]: https://img.shields.io/npm/dm/kaktana-react-lightweight-charts.svg
-[npm-link]: https://www.npmjs.com/package/kaktana-react-lightweight-charts
-
-[bundle-size-img]: https://badgen.net/bundlephobia/minzip/kaktana-react-lightweight-charts
-[deps-count-img]: https://img.shields.io/badge/dynamic/json.svg?label=dependecies&color=brightgreen&query=$.dependencyCount&uri=https%3A%2F%2Fbundlephobia.com%2Fapi%2Fsize%3Fpackage%3Dkaktana-react-lightweight-charts
-[bundle-size-link]: https://bundlephobia.com/result?p=kaktana-react-lightweight-charts
-
