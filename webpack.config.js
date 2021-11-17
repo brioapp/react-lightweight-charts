@@ -2,10 +2,10 @@ var path = require("path");
 
 module.exports = {
     mode: "production",
-    entry: "./src/kaktana-react-lightweight-charts.js",
+    entry: "./src/qognica-react-lightweight-charts.js",
     output: {
         path: path.resolve("dist"),
-        filename: "kaktana-react-lightweight-charts.min.js",
+        filename: "qognica-react-lightweight-charts.min.js",
         libraryTarget: "commonjs2"
     },
     module: {
