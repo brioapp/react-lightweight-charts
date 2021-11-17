@@ -2,7 +2,7 @@
 
 <div align="center">
   <p>React.js wrapper for <a href="https://github.com/tradingview/lightweight-charts">Lightweight Charts</a> to build interactive financial charts in react.</p>
-  <p>Based on <a href="https://github.com/Kaktana/kaktana-react-lightweight-charts">Kaktana react lightweight charts</a></p>
+  <p>Based on <a href="https://github.com/Kaktana/kaktana-react-lightweight-charts">Kaktana react lightweight charts, modified by Qognica Finance</a></p>
 </div>
 
 <!-- markdownlint-enable no-inline-html -->
