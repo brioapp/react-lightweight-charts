@@ -2,10 +2,12 @@
 
 <div align="center">
   <p>React.js wrapper for <a href="https://github.com/tradingview/lightweight-charts">Lightweight Charts</a> to build interactive financial charts in react.</p>
-  <p>Based on <a href="https://github.com/Kaktana/kaktana-react-lightweight-charts">Kaktana react lightweight charts, modified by Qognica Finance</a></p>
+  <p>Based on <a href="https://github.com/Kaktana/kaktana-react-lightweight-charts">Kaktana react lightweight charts</a>, modified by Qognica Finance</p>
   
   [![](https://img.shields.io/badge/lightweight--charts-v3.7.0-brightgreen)](https://github.com/tradingview/lightweight-charts/tree/3.7.0)
-
+[![npm version](https://badge.fury.io/js/@qognicafinance%2Freact-lightweight-charts.svg)](https://badge.fury.io/js/@qognicafinance%2Freact-lightweight-charts)
+[![npm downloads](https://img.shields.io/npm/dm/@qognicafinance%2Freact-lightweight-charts.svg
+)](https://badge.fury.io/js/@qognicafinance%2Freact-lightweight-charts)
 </div>
 
 <!-- markdownlint-enable no-inline-html -->
