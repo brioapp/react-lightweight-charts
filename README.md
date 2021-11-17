@@ -9,8 +9,14 @@
 
 ## Download and Installation
 
-- TODO add install guide
-
+##### Installing via npm
+```bash
+npm install --save @qognicafinance/react-lightweight-charts
+```
+##### Installing via yarn
+```bash
+yarn add @qognicafinance/react-lightweight-charts
+```
 ## Usage
 
 ```js
