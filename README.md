@@ -20,7 +20,7 @@ yarn add @qognicafinance/react-lightweight-charts
 ## Usage
 
 ```js
-import Chart from 'qognica-react-lightweight-charts'
+import Chart from '@qognicafinance/react-lightweight-charts'
 ```
 
 To create a basic candlestick chart, write as follows:
