@@ -1,9 +1,9 @@
 {
-    "name": "kaktana-react-lightweight-charts",
-    "version": "2.0.0",
-    "description": "A simple react wrapper for the tradingview lightweight charts module",
-    "main": "dist/kaktana-react-lightweight-charts.min.js",
-    "types": "types/kaktana-react-lightweight-charts.d.ts",
+    "name": "qognica-react-lightweight-charts",
+    "version": "1.0.0",
+    "description": "A simple react wrapper for the tradingview lightweight charts module by Qognica Finance. Forked from Kaktana.",
+    "main": "dist/qognica-react-lightweight-charts.min.js",
+    "types": "types/qognica-react-lightweight-charts.d.ts",
     "scripts": {
         "build": "webpack"
     },
@@ -14,11 +14,11 @@
         "wrapper",
         "tradingview"
     ],
-    "author": "Kaktana (https://kaktana.com)",
+    "author": "Qognica Finance (https://qognicafinance.com)",
     "bugs": {
-        "url": "https://github.com/Kaktana/kaktana-react-lightweight-charts/issues"
+        "url": "https://github.com/Qognica/qognica-react-lightweight-charts/issues"
     },
-    "homepage": "https://github.com/Kaktana/kaktana-react-lightweight-charts#readme",
+    "homepage": "https://github.com/Qognica/qognica-react-lightweight-charts#readme",
     "license": "MIT",
     "dependencies": {
         "fast-deep-equal": "^3.1.1",
