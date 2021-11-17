@@ -2,10 +2,10 @@ var path = require("path");
 
 module.exports = {
     mode: "production",
-    entry: "./src/qognica-react-lightweight-charts.js",
+    entry: "./src/qognicafinance-react-lightweight-charts.js",
     output: {
         path: path.resolve("dist"),
-        filename: "qognica-react-lightweight-charts.min.js",
+        filename: "qognicafinance-react-lightweight-charts.min.js",
         libraryTarget: "commonjs2"
     },
     module: {
