@@ -115,4 +115,4 @@ class App extends Component {
 
 ## License
 
-qognica-react-lightweight-charts is released under MIT license. You are free to use, modify and distribute this software, as long as the copyright header is left intact.
+@qognicafinance/react-lightweight-charts is released under MIT license. You are free to use, modify and distribute this software, as long as the copyright header is left intact.
