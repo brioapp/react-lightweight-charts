@@ -3,18 +3,27 @@
 <div align="center">
   <p>React.js wrapper for <a href="https://github.com/tradingview/lightweight-charts">Lightweight Charts</a> to build interactive financial charts in react.</p>
   <p>Based on <a href="https://github.com/Kaktana/kaktana-react-lightweight-charts">Kaktana react lightweight charts, modified by Qognica Finance</a></p>
+  
+  [![](https://img.shields.io/badge/lightweight--charts-v3.7.0-brightgreen)](https://github.com/tradingview/lightweight-charts/tree/3.7.0)
+
 </div>
 
 <!-- markdownlint-enable no-inline-html -->
 
 ## Download and Installation
 
-- TODO add install guide
-
+##### Installing via npm
+```bash
+npm install --save @qognicafinance/react-lightweight-charts
+```
+##### Installing via yarn
+```bash
+yarn add @qognicafinance/react-lightweight-charts
+```
 ## Usage
 
 ```js
-import Chart from 'qognica-react-lightweight-charts'
+import Chart from '@qognicafinance/react-lightweight-charts'
 ```
 
 To create a basic candlestick chart, write as follows:
