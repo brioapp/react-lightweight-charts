@@ -63,6 +63,7 @@ class ChartWrapper extends React.Component {
     }
 
     componentDidMount() {
+        if (this.chart) return;
         this.chart = createChart(this.chartDiv.current);
         this.handleUpdateChart();
         this.resizeHandler();
