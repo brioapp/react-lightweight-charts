@@ -98,6 +98,7 @@ class App extends Component {
 |`from`|`Date`|Sets visible range from the specified date. Date object is defined in [the official Docs](https://github.com/tradingview/lightweight-charts/tree/v3.3.0/docs/time.md)|
 |`to`|`Date`|Sets visible range to the specified date. Date object is defined in [the official Docs](https://github.com/tradingview/lightweight-charts/tree/v3.3.0/docs/time.md)|
 |`darkTheme`|`boolean`|If true, a custom dark theme palette is applied to the chart|
+|`chartRef`|`function`|Access to the chart ref to use Chart API function defined in [the official Docs](https://github.com/tradingview/lightweight-charts/blob/v3.3.0/docs/time-scale.md)|
 
 ### SeriesObject
 
