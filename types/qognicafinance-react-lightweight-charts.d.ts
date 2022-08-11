@@ -1,6 +1,7 @@
 import {
     MouseEventHandler,
     TimeRangeChangeEventHandler,
+    IChartApi,
 } from "lightweight-charts";
 import React from "react";
 
@@ -23,6 +24,7 @@ declare module "@qognicafinance/react-lightweight-charts" {
         onCrosshairMove?: MouseEventHandler;
         onTimeRangeMove?: TimeRangeChangeEventHandler;
         darkTheme?: boolean;
+        chartRef?: (chart: IChartApi) => void;
     }
 
     export default class ChartWrapper extends React.Component<Props> {}
