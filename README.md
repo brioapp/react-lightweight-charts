@@ -12,6 +12,13 @@
 
 <!-- markdownlint-enable no-inline-html -->
 
+## 2.0.0 Refactor
+
+We are currently working on refactoring the code base to more modern react standards, as well as typing everything correctly. This work is being done on the [next branch](https://github.com/Qognica/qognicafinance-react-lightweight-charts/tree/next). 
+
+#### Known issues
+- [ ] Resizing causes a crash
+
 ## Download and Installation
 
 ##### Installing via npm
