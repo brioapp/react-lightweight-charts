@@ -12,9 +12,9 @@
 
 <!-- markdownlint-enable no-inline-html -->
 
-## 2.0.0 Refactor
+# 2.0.0 Refactor
 
-We are currently working on refactoring the code base to more modern react standards, as well as typing everything correctly. This work is being done on the [next branch](https://github.com/Qognica/qognicafinance-react-lightweight-charts/tree/next). 
+2.0.0 will be rewritten from the ground up and thus this will no longer be a fork of Kaktana. You can follow the work on the new version at https://github.com/Qognica/react-lightweight-charts, which will be replacing this repository when it is finished
 
 #### Known issues
 - [ ] Resizing causes a crash
