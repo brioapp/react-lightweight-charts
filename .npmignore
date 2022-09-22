@@ -2,4 +2,6 @@ webpack.config.js
 .gitignore
 .babelrc
 .prettierrc
+.prettieignore
 index.js
+.editconfig
