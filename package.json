@@ -1,5 +1,5 @@
 {
-  "name": "@qognicafinance/react-lightweight-charts",
+  "name": "@comp/react-lightweight-charts",
   "version": "1.0.5",
   "description": "A simple react wrapper for the tradingview lightweight charts module by Qognica Finance. Forked from Kaktana.",
   "keywords": [

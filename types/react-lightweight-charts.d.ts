@@ -6,7 +6,7 @@ import {
 } from 'lightweight-charts'
 import React from 'react'
 
-declare module '@qognicafinance/react-lightweight-charts' {
+declare module '@comp/react-lightweight-charts' {
   interface Props {
     candlestickSeries?: Array<any>
     lineSeries?: Array<any>

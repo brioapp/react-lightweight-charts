@@ -5,9 +5,9 @@
   <p>Based on <a href="https://github.com/Kaktana/kaktana-react-lightweight-charts">Kaktana react lightweight charts</a>, modified by Qognica Finance</p>
   
   [![](https://img.shields.io/badge/lightweight--charts-v3.7.0-brightgreen)](https://github.com/tradingview/lightweight-charts/tree/3.7.0)
-[![npm version](https://badge.fury.io/js/@qognicafinance%2Freact-lightweight-charts.svg)](https://badge.fury.io/js/@qognicafinance%2Freact-lightweight-charts)
-[![npm downloads](https://img.shields.io/npm/dm/@qognicafinance%2Freact-lightweight-charts.svg
-)](https://badge.fury.io/js/@qognicafinance%2Freact-lightweight-charts)
+[![npm version](https://badge.fury.io/js/@comp%2Freact-lightweight-charts.svg)](https://badge.fury.io/js/@comp%2Freact-lightweight-charts)
+[![npm downloads](https://img.shields.io/npm/dm/@comp%2Freact-lightweight-charts.svg
+)](https://badge.fury.io/js/@comp%2Freact-lightweight-charts)
 </div>
 
 <!-- markdownlint-enable no-inline-html -->
@@ -21,19 +21,19 @@
 ##### Installing via npm
 
 ```bash
-npm install --save @qognicafinance/react-lightweight-charts
+npm install --save @comp/react-lightweight-charts
 ```
 
 ##### Installing via yarn
 
 ```bash
-yarn add @qognicafinance/react-lightweight-charts
+yarn add @comp/react-lightweight-charts
 ```
 
 ## Usage
 
 ```js
-import Chart from '@qognicafinance/react-lightweight-charts'
+import Chart from '@comp/react-lightweight-charts'
 ```
 
 To create a basic candlestick chart, write as follows:
@@ -129,4 +129,4 @@ class App extends Component {
 
 ## License
 
-@qognicafinance/react-lightweight-charts is released under MIT license. You are free to use, modify and distribute this software, as long as the copyright header is left intact.
+@comp/react-lightweight-charts is released under MIT license. You are free to use, modify and distribute this software, as long as the copyright header is left intact.
