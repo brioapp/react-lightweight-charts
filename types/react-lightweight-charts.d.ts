@@ -1,4 +1,9 @@
-import { MouseEventHandler, TimeRangeChangeEventHandler, IChartApi } from 'lightweight-charts'
+import {
+  MouseEventHandler,
+  TimeRangeChangeEventHandler,
+  IChartApi,
+  LogicalRangeChangeEventHandler,
+} from 'lightweight-charts'
 import React from 'react'
 
 declare module '@qognicafinance/react-lightweight-charts' {
@@ -18,7 +23,8 @@ declare module '@qognicafinance/react-lightweight-charts' {
     to?: number
     onClick?: MouseEventHandler
     onCrosshairMove?: MouseEventHandler
-    onTimeRangeMove?: TimeRangeChangeEventHandler
+    onVisibleTimeRangeChange?: TimeRangeChangeEventHandler
+    onVisibleLogicalRangeChange?: LogicalRangeChangeEventHandler
     darkTheme?: boolean
     chartRef?: (chart: IChartApi) => void
   }

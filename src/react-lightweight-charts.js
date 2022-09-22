@@ -66,8 +66,18 @@ class ChartWrapper extends React.Component {
     if (!this.props.autoWidth && !this.props.autoHeight) window.removeEventListener('resize', this.resizeHandler)
     if (
       !equal(
-        [prevProps.onCrosshairMove, prevProps.onTimeRangeMove, prevProps.onClick],
-        [this.props.onCrosshairMove, this.props.onTimeRangeMove, this.props.onClick]
+        [
+          prevProps.onCrosshairMove,
+          prevProps.onVisibleTimeRangeChange,
+          prevProps.onVisibleLogicalRangeChange,
+          prevProps.onClick,
+        ],
+        [
+          this.props.onCrosshairMove,
+          this.props.onVisibleTimeRangeChange,
+          this.props.onVisibleLogicalRangeChange,
+          this.props.onClick,
+        ]
       )
     )
       this.unsubscribeEvents(prevProps)
@@ -160,7 +170,8 @@ class ChartWrapper extends React.Component {
     let chart = this.chart
     chart.unsubscribeClick(prevProps.onClick)
     chart.unsubscribeCrosshairMove(prevProps.onCrosshairMove)
-    chart.timeScale().unsubscribeVisibleTimeRangeChange(prevProps.onTimeRangeMove)
+    chart.timeScale().unsubscribeVisibleTimeRangeChange(prevProps.onVisibleTimeRangeChange)
+    chart.timeScale().unsubscribeVisibleLogicalRangeChange(prevProps.onVisibleLogicalRangeChange)
   }
 
   handleEvents = () => {
@@ -168,7 +179,9 @@ class ChartWrapper extends React.Component {
     let props = this.props
     props.onClick && chart.subscribeClick(props.onClick)
     props.onCrosshairMove && chart.subscribeCrosshairMove(props.onCrosshairMove)
-    props.onTimeRangeMove && chart.timeScale().subscribeVisibleTimeRangeChange(props.onTimeRangeMove)
+    props.onVisibleTimeRangeChange && chart.timeScale().subscribeVisibleTimeRangeChange(props.onVisibleTimeRangeChange)
+    props.onVisibleLogicalRangeChange &&
+      chart.timeScale().subscribeVisibleLogicalRangeChange(props.onVisibleLogicalRangeChange)
 
     // handle legend dynamical change
     chart.subscribeCrosshairMove(this.handleLegends)
